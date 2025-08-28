@@ -19,13 +19,8 @@ data/
 *.tsv
 *.xlsx
 *.json
-*.h5
 *.keras
-*.pkl
 *.joblib
-
-models/
-!models/.gitkeep   # keep folder but ignore contents
 
 *.log
 *.out
