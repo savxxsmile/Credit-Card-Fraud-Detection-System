@@ -14,25 +14,21 @@ ENV/
 env/
 *.env
 
-data/
-*.csv
-*.tsv
-*.xlsx
-*.json
-*.h5
-*.keras
-*.pkl
-*.joblib
 
-models/
-!models/.gitkeep   # keep folder but ignore contents
+# --- Model Files ---
+models/*
+!models/scaler.pkl
+!models/logistic_regression.pkl
+!models/autoencoder.h5
 
+# --- Checkpoints / Artifacts ---
 *.log
 *.out
 *.tmp
 *.ckpt
 *.checkpoint
 
+# --- IDE / OS ---
 .vscode/
 .idea/
 .DS_Store
