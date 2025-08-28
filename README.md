@@ -9,7 +9,7 @@ The project includes model training, data preprocessing, and a **Streamlit web a
 
 ```
 
-.
+Credit-Card-Fraud-Detection/
 ├── data/                    # Dataset folder
 │   └── creditcard.csv       # Credit card transactions dataset
 │
